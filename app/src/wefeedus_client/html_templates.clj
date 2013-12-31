@@ -1,7 +1,7 @@
 (ns wefeedus-client.html-templates
   (:use [io.pedestal.app.templates :only [tfn dtfn tnodes]]))
 
-(defmacro wefeedus-client-templates
+(defmacro wefeedus-client-templates []
   {:wefeedus (dtfn (tnodes "wefeedus-client.html" "wefeedus") #{:id})
    :date-stepper (dtfn (tnodes "wefeedus-client.html" "date-stepper") #{:id})
    :add (dtfn (tnodes "add.html" "add"))})
