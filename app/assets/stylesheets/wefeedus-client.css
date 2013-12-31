@@ -1,0 +1,147 @@
+html,body {
+    height: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #e5ffd5;
+    color: #112b00;
+}
+
+modal-dialog {
+    background-color: #e5ffd5;
+    color: #112b00;
+}
+
+a, a:active, a:after {
+    text-decoration: none;
+    color: #112b00;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #112b00;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.wefeedus {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #e5ffd5;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 80%;
+}
+
+.navigation {
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+}
+
+
+.hour-slider {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    min-width: 400px;
+}
+
+.add-button {
+    display: inline-block;
+    float: right;
+}
+
+.map {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    max-height: 80%;
+}
+
+.date-stepper {
+    display: inline-block;
+    float: left;
+}
+
+div.footer {
+    font-size: 16pt;
+    height: 50px;
+}
+
+.button {
+    font-size: 16pt;
+    background-color: #112b00;
+    color: #99ff55;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 2px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.hour-button {
+    font-size: 16pt;
+    background-color: #112b00;
+    color: #b3ff80;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 2px;
+    border: 2px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+
+.hour-slider {
+    overflow: hidden;
+    background-image: url(/slider-scale.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.goog-twothumbslider-horizontal {
+    position: relative;
+    overflow: hidden;
+}
+
+.goog-twothumbslider-value-thumb {
+    position: absolute;
+    overflow: hidden;
+}
+
+.goog-twothumbslider-extent-thumb {
+    position: absolute;
+    overflow: hidden;
+}
+
+.goog-date-picker-selected {
+    color: #e5ffd5;
+    background-color: #112b00;
+}

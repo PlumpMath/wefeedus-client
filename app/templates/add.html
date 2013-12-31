@@ -1,0 +1,36 @@
+<_within file="application.html">
+
+  <div id="content">
+
+    <div class="modal modal-dialog" template="add" id="add-dialog">
+      <div class="modal-header">
+        <a class="close" data-dismiss="modal" href="#" id="add-dialog-close">×</a>
+        <h3>Add a new meal:</h3>
+      </div>
+
+      <div class="modal-body">
+        <p>Type:</p>
+        <input class="xlarge" type="text" id="add-type"><br>
+
+        <p>Name:</p>
+        <input type="text" id="add-name"><br>
+
+        <p>Start-Time in Minutes:</p>
+        <input type="text" id="add-start"><br>
+
+        <p>End-Time in Minutes:</p>
+        <input type="text" id="add-end"><br>
+
+        <p>Date:</p>
+        <div id="add-date"> </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn button" id="add-meal-button">Add</button>
+        <button class="btn" id="cancel-meal-button">Cancel</button>
+      </div>
+    </div>
+
+  </div>
+
+</_within>
